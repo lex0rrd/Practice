@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+h1, h2, h3, h4 {
+    color: var(--main-color);
+}
+
 :root {
     font-size: 16px;
     --main-color: #21243D;
@@ -14,11 +18,13 @@
 }
 
 .container {
-    width: 860px;
+    width: 854px;
     margin: 0 auto;
 }
 
-.header {
+/*.......................HEADER.................. */
+
+header {
     width: 100%;
     height: 80px;
 
@@ -41,25 +47,105 @@ header ul li a {
     color: black;
 }
 
-.content {
+/*.......................FIRSTSCREEN.................. */
+
+.firstscreen {
     height: 300px;
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
 }
 
-.content .content-left {
+.firstscreen__left {
     width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.content .content-left h1 {
+.firstscreen__left h1 {
     font-size: 2.75rem;
 }
 
-.content .content-right {
+button {
+    width: 200px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.firstscreen__right {
     display: flex;
     align-items: center;
+}
+
+/*.......................SECONDSCREEN...................*/
+
+.secondscreen {
+    height: 396px;
+    margin-top: 79px;
+    background-color: #EDF7FA;
+}
+
+.secondscreen__header {
+    height: 69px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p__right {
+    color: var(--secondary-color);
+}
+
+.secondscreen__content {
+    height: 297px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondscreen__item {
+    width: 418px;
+    height: 295px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.item__container {
+    margin-top: 32px;
+    margin-left: 23px;
+    margin-right: 48px;
+    margin-bottom: 35px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text_line {
+    width: 278px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    width: 0px;
+    height: 21px;
+    border: 1px solid #000000;
+}
+
+/*..................THIRDSCREEN..............*/
+
+.thirdscreen {
+    margin-top: 15px;
 }
