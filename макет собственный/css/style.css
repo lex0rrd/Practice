@@ -1,0 +1,245 @@
+
+@font-face {
+    font-family: "Marske";
+    src: url("https://fontsforyou.com/fonts/m/Marske.otf");
+}
+
+* {
+    font-family: "Marske";
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 16px;
+    --main-color: #37FFDB;
+    --primary-color: #D250FF;
+    --secondary-color: #FBB500;
+}
+
+
+.container {
+    width: 1427px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-position: top center;
+    min-height: 7231px;
+}
+
+/*.................HEADER..................*/
+
+.firstscreen__header {
+    margin-top: 80px;
+    width: 1427px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    margin-top: 9px;
+}
+
+header ul {
+    width: 757px; 
+    margin-left: 10px;
+
+    display: flex;
+    list-style: none;
+    justify-content: space-between;  
+    font-size: 1.125rem;
+}
+
+header ul li a {
+    color: var(--main-color);
+    
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
+
+header ul li a:hover {
+    color: var(--primary-color);
+}
+
+/*.................FIRSTSCREEN.............*/
+
+.firstscreen {
+    margin-top: 107px;
+    height: 358px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.firstscreen_bottom {
+    margin-left: 90px;
+    width: 752px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom__text {
+    width: 268px;
+    height: 49px;
+
+    line-height: 106.5%;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.bottom__buttons {
+    width: 414px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.button__reg {
+    width: 196px;
+    height: 45px;   
+
+    border: 1px solid #37FFDB;
+    border-radius: 50px;
+    background: transparent;
+    
+    color: var(--main-color);
+    letter-spacing: 0.065em;
+
+    z-index: 5;
+}
+
+.button__reg:hover {
+    color: var(--primary-color);
+    border: 1px solid #D250FF;
+    cursor: pointer;
+}
+
+.button__merch {
+    height: 45px;
+}
+
+
+/*.................SECONDSCREEN............*/
+
+.fon {
+    margin-left: -150px;
+    z-index: -1;
+}
+
+.secondscreen__text {
+    height: 226px;
+    width: 995px;
+
+    margin-top: -780px;
+    margin-left: 216px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondscreen__title {
+    font-size: 4em;
+    line-height: 64px;
+    letter-spacing: 0.075em;
+    color: #D250FF;
+}
+
+.secondscreen__sub-title {
+    font-size: 1.25em;
+    line-height: 123.5%;
+    letter-spacing: 0.31em;
+    color: #FFFFFF;
+}
+
+.secondscreen__discrip {
+    font-size: 1.25em;
+    line-height: 129%;
+    text-align: justify;
+    letter-spacing: 0.18em;
+    color: #FFFFFF;
+}
+
+.secondscreen__items {
+    width: 1004px;
+    height: 317px;
+
+    margin-left: 218px;
+    margin-top: 72px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondscreen__item {
+    height: 309px;
+    width: 241px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item__button {
+    width: 53.69px;
+    height: 54.44px;
+    margin-left: 100px;
+    margin-top: 182px;
+    position: absolute;
+}
+
+.item__text {
+    height: 59px;
+    width: 241.27px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nickname {
+    line-height: 118.5%;
+    letter-spacing: 0.07em;
+    color: white;
+}
+
+.subject {
+    line-height: 118.5%;
+    letter-spacing: 0.07em;
+    color: white;
+}
+
+
+/*.................THIRDSCREEN.............*/
+
+.thirdscreen {
+    margin-top: 640px;
+    margin-left: 370px;
+}
+
+/*.................FOURTHSCREEN............*/
+
+.fourthscreen {
+    margin-top: 100px;
+}
+
+
+
+
+/*.................FIFTHSCREEN.............*/
+
+
+
+
+
+
+/*.................FOOTER..................*/
