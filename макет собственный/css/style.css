@@ -237,9 +237,338 @@ header ul li a:hover {
 
 /*.................FIFTHSCREEN.............*/
 
+.fifthscreen__content {
+    width: 947px;
+    height: 653px;
+    
+    margin-left: 240px;
+    margin-top: -760px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__left {
+    height: 653px;
+    width: 634px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left__title {
+    font-size: 4em;
+    line-height: 89.5%;
+    letter-spacing: 0.06em;
+    color: #37FFDB;
+}
+
+.left__quest {
+    display: flex;
+}
+
+.quest {
+    margin-left: 43px;
+}
+
+.left__agreement {
+    width: 630px;
+    height: 144px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.agreement__1 {
+    width: 577px;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.agreement {
+    margin-left: 35.77px;
+
+    color: white;
+    line-height: 121.5%;
+    letter-spacing: 0.18em;
+}
+
+.checkbox {
+    width: 25px;
+    height: 24.56px;
+}
+
+.agreement__2 {
+    width: 561px;
+    height: 74px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__buttons {
+    width: 324px;
+    height: 40px;
+
+    margin-left: 62px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.button__account {
+    font-size: 1.125em;
+    line-height: 18px;
+    letter-spacing: 0.065em;
+    color: var(--main-color);
+    border: none;
+    background: none;
+}
+
+.button__create {
+    width: 126px;
+    height: 40px;
+
+    border: 1px solid #D250FF;
+    border-radius: 50px;
+    background: none;
+
+    color: #D250FF;
+    font-size: 1.125em;
+    line-height: 18px;
+    letter-spacing: 0.065em;
+}
+
+.content__right {
+    margin-left: 53px;
+    margin-top: 99px;
+
+    width: 273px;
+    height: 278px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right__text {
+    text-align: justify;
+    letter-spacing: 0.18em;
+    color: #FFFFFF;
+}
+
+.right__text-sub {
+    font-size: 0.875em;
+    line-height: 123.5%;
+    text-align: justify;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+
+}
+
+.button__arow {
+    height: 55px;
+    width: 55px;
+}
+
+/*.................SIXTHSCREEN.............*/
+
+.between {
+    margin-top: 64px;
+}
+
+/*.................SEVENTHSCREEN...........*/
+
+.seventhscreen__content {
+    width: 982px;
+    height: 603px;
+
+    margin-left: 232px;
+    margin-top: -780px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content__top {
+    width: 626px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.news {
+    font-size: 2.5em;
+    letter-spacing: 0.06em;
+    color: #1F8D79;
+}
+
+.gallery {
+    font-size: 2.5em;
+    letter-spacing: 0.06em;
+    color: #37FFDB;
+}
+
+.content__bottom {
+    width: 982px;
+    height: 491px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 
+.bottom__item {
+    height: 233px;
+    margin-bottom: 45px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.item__title {
+    font-size: 2em;
+    letter-spacing: 0.06em;
+    color: #37FFDB;
+}
 
-/*.................FOOTER..................*/
+/*.................EIGHTHSCREEN............*/
+
+.eighthscreen__title {
+    margin-top: 400px;
+    margin-left: 565px;
+
+    font-size: 4em;
+    letter-spacing: 0.06em;
+    color: #37FFDB;
+
+}
+
+.eighthscreen__items {
+    width: 1078px;
+    height: 210px;
+
+    margin-left: 168px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eighthscreen__items-bottom {
+    width: 1078px;
+    height: 106px;
+
+    margin-left: 168px;
+    margin-top: 70px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intel {
+    width: 193px;
+    height: 128px;
+}
+
+.mi {
+    width: 210px;
+    height: 210px;
+}
+
+.nike {
+    width: 187px;
+    height: 139px;
+}
+
+.china {
+    width: 222px;
+    height: 69px;
+}
+
+.mizuho {
+    width: 425px;
+    height: 106px;
+}
+
+.oki {
+    width: 195px;
+    height: 59px;
+}
+
+/*.................NINETHSCREEN (FOOTER)............*/
+
+.ninethscreen__top {
+    width: 967px;
+
+    margin-left: 235px;
+    margin-top: 320px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__head {
+    font-size: 1.25em;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.cybercube {
+    margin-left: 200px;
+    margin-top: 366px;
+}
+
+.ninethscreen__bottom {
+    margin-left: 235px;
+    margin-top: 247px;
+}
+
+.bottom__top {
+    width: 956px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_left {
+    height: 59px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inf {
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.top__right {
+    bottom: 0;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom__text-about {
+    width: 957px;
+    margin-top: 31px;
+
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
